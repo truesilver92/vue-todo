@@ -1,11 +1,11 @@
 var app = new Vue({
-  el: '#app',
-  data: {
-      todos: [],
-      message: '',
-      show: 'all',
-      drag: {},
-  },
+    el: '#app',
+    data: {
+        todos: [],
+        message: '',
+        show: 'all',
+        drag: {},
+    },
     methods: {
         addItem() {
             this.todos.push({text: this.message, completed:false});
